@@ -1,6 +1,5 @@
 Title: Acerca de Nosotros
-Date: 2024-11-11
-Category: Página Corporativa
+slug: about
 
 ## Acerca de Ivan Atimarte
 

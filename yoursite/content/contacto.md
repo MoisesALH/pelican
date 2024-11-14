@@ -1,6 +1,5 @@
 Title: Contacto
-Date: 2024-11-11
-Category: Página de Contacto
+Slug: contacto
 
 ## Contáctanos
 

@@ -1,7 +1,5 @@
 Title: Bienvenido a Ivan Atimarte
-Date: 2024-11-11
-Category: Página Principal
-Summary: Empresa de desarrollo de software.
+Slug: index
 
 ## Bienvenido a Ivan Atimarte
 

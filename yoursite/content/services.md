@@ -1,6 +1,5 @@
 Title: Servicios
-Date: 2024-11-11
-Category: Página de Servicios
+Slug: servicios
 
 ## Nuestros Servicios
 

@@ -1,8 +1,8 @@
 AUTHOR = 'Owen|Moises'
 SITENAME = 'Ivan Atimarte'
-SITEURL = ""
+SITEURL = ''
 
-PATH = "content"
+PATH = 'content'
 
 TIMEZONE = 'Atlantic/Canary'
 
@@ -17,17 +17,43 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
+    ('Pelican', 'https://getpelican.com/'),
+    ('Python.org', 'https://www.python.org/'),
+    ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
+    ('You can modify those links in your config file', '#'),
 )
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ('You can add links in your config file', '#'),
+    ('Another social link', '#'),
 )
+
+PAGE_PATHS = ['']
+ARTICLE_PATHS = []
+
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+
+THEME_TEMPLATES_OVERRIDES = ['templates']
+INDEX_SAVE_AS = 'home.html'
+
+
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = [
+    ('Inicio', '/index.html'),
+    ('Servicios', '/servicios.html'),
+    ('Acerca de nostros', '/about.html'),
+    ('Contacto', '/contacto.html'),
+]
+
+
+CATEGORY_SAVE_AS = ''
+TAG_SAVE_AS = ''
+ARCHIVES_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
+
 
 DEFAULT_PAGINATION = 10
 
