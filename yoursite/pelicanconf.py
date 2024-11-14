@@ -15,19 +15,16 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# THEME = 'themes/Flex'
+
 # Blogroll
 LINKS = (
-    ('Pelican', 'https://getpelican.com/'),
-    ('Python.org', 'https://www.python.org/'),
-    ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-    ('You can modify those links in your config file', '#'),
+    ('Owen', 'https://github.com/OwenHernandez'),
+    ('Moises', 'https://github.com/MoisesALH'),
 )
 
 # Social widget
-SOCIAL = (
-    ('You can add links in your config file', '#'),
-    ('Another social link', '#'),
-)
+SOCIAL = (('Youtube', 'https://www.youtube.com/@ibb007'),)
 
 PAGE_PATHS = ['']
 ARTICLE_PATHS = []
